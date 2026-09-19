@@ -1,0 +1,111 @@
+span.kfa-ltr,
+input.kfa-ltr,
+textarea.kfa-ltr,
+.kfa-ltr input {
+    direction: ltr;
+}
+
+span.kfa-ltr {
+    display: block;
+}
+
+.kfa-date {
+    display: inline-block;
+    direction: ltr;
+}
+
+.kfa-color {
+    direction: ltr;
+    min-width: 85px;
+}
+
+.bootstrap input.kfa-number {
+    display: inline;
+    direction: ltr;
+    text-align: center;
+}
+
+a.tab-page:focus {
+    outline: none;
+}
+
+.bootstrap .nav > li > a.tab-page {
+    padding: 10px 5px;
+}
+
+.bootstrap ul.nav-tabs {
+    padding-right: 5px;
+    border-bottom: none !important;
+}
+
+.textarea-autosize {
+    min-height: 65px;
+}
+
+.kfadeliverytime-text-left {
+    text-align: left;
+}
+
+.kfadeliverytime-help li {
+    margin-top: 20px;
+}
+
+.bootstrap .table.kfadeliverytime-ranges-table .kfadeliverytime-time-cell,
+.bootstrap .table.kfadeliverytime-ranges-table .kfadeliverytime-date-cell {
+    direction: ltr !important;
+}
+
+.kfadeliverytime-time-cell,
+.kfadeliverytime-date-cell {
+    direction: ltr;
+    width: 1%;
+    white-space: nowrap;
+}
+
+.kfadeliverytime-time-cell input.kfa-number,
+.kfadeliverytime-date-cell input.kfa-number {
+    padding: 2px;
+    width: 50px;
+}
+
+.kfadeliverytime-date-cell:nth-of-type(4) input.kfa-number {
+    width: 70px;
+}
+
+.kfadeliverytime-ranges-table thead tr:first-of-type th {
+    font-weight: bold;
+}
+
+.kfadeliverytime-ranges-table thead tr th,
+.kfadeliverytime-events-table thead tr th {
+    vertical-align: middle !important;
+}
+
+.kfadeliverytime-range-data-table thead label {
+    font-weight: normal;
+}
+
+.kfadeliverytime-range-data-table thead input[type=checkbox] {
+    vertical-align: middle;
+}
+
+.kfadeliverytime-row-data {
+    min-width: 32px;
+}
+
+.bootstrap .kfadeliverytime-row-data i.icon-lock {
+    color: limegreen;
+}
+
+.kfadeliverytime-range-data-table-head {
+    float: left;
+    font-weight: bold;
+    direction: ltr;
+}
+
+.bootstrap .kfadeliverytime-capacity-type {
+    width: auto;
+    display: inline;
+    padding-left: 2px;
+    padding-right: 2px;
+}

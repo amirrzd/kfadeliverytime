@@ -1,0 +1,18 @@
+/* order */
+
+.kfadeliverytime-option-container {
+	background-color: #f4ffef;
+	border: 1px solid #88cc88;
+	border-radius: 4px;
+	margin: 10px 10px 10px auto;
+	color: #598859;
+}
+
+.kfadeliverytime-option-container.kfadeliverytime-option-disabled {
+	background-color: whitesmoke;
+	border-color: lightgray;
+}
+
+.kfadeliverytime-radio {
+    width: 1%;
+}

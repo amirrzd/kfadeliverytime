@@ -1,0 +1,40 @@
+#kfadeliverytime-additional_delivery_times {
+	border: 1px solid;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+#kfadeliverytime-additional_delivery_times.in {
+	border-color: limegreen;
+	background: greenyellow;
+	color: black;
+}
+
+#kfadeliverytime-additional_delivery_times.out {
+	border-color: crimson;
+	background: #d7a6a6;
+	color: brown;
+}
+
+.kfadeliverytime-options-title {
+    font-size: 16px !important;
+    margin: 15px auto 20px !important;
+    text-align: center;
+}
+
+.delivery-description {
+    color: #f57f17;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.kfadeliverytime-options-title p {
+    margin: 0;
+}
+
+#kfadeliverytime-options .delivery-title {
+    font-weight: bold !important;
+    margin-bottom: 8px;
+}

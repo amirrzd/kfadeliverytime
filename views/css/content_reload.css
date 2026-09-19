@@ -1,0 +1,53 @@
+
+#kfadeliverytime-options {
+    position: relative;
+}
+
+#kfadeliverytime-reload-cover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+    z-index: 9999;
+	background: #00000093;
+}
+
+#kfadeliverytime-reload-cover table {
+	width: 100%;
+	height: 100%;
+    background: none;
+}
+
+#kfadeliverytime-reload-cover table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.rotating:before {
+    -webkit-animation: rotating 1.7s linear infinite;
+    -moz-animation: rotating 1.7s linear infinite;
+    -ms-animation: rotating 1.7s linear infinite;
+    -o-animation: rotating 1.7s linear infinite;
+    animation: rotating 1.7s linear infinite;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}

@@ -1,0 +1,58 @@
+/* order */
+
+#kfadeliverytime-options {
+    margin: 20px auto;
+}
+
+p.kfadeliverytime-options-title {
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.kfadeliverytime-option-container {
+   cursor: pointer;
+}
+
+.kfadeliverytime-option-container i {
+    font-size: 20px;
+    color: #88cc88;
+}
+
+.kfadeliverytime-option-container.kfadeliverytime-option-disabled i {
+    color: lightgray;
+}
+
+.kfadeliverytime-option-container.kfadeliverytime-option-disabled {
+    color: lightgray;
+    cursor: default;
+}
+
+#kfadeliverytime-message {
+    margin-top: 10px;
+}
+
+/* history */
+
+#kfadeliverytime-selected-option i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+/* psf_prestacart */
+
+.kfadeliverytime-options-prestacart {
+    margin-bottom: 30px;
+}
+
+.kfadeliverytime-options-prestacart th {
+    padding: 15px 0;
+}
+
+.kfadeliverytime-options-prestacart .kfadeliverytime-option-container td {
+    border: 1px solid lightgray;
+}
+
+.kfadeliverytime-options-prestacart .kfadeliverytime-options-title {
+    font-size: 22px;
+    margin: 20px auto;
+}

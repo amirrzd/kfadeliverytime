@@ -1,0 +1,71 @@
+/* tabs */
+
+.kfadeliverytime-tabs {
+	overflow: hidden;
+	border-right: 1px solid lightgray;
+}
+
+.kfadeliverytime-tab,
+.kfadeliverytime-tabs {
+	border-radius: 1px 1px 0 0;
+}
+
+.kfadeliverytime-tab {
+	float: right;
+	border: 1px solid lightgray;
+	border-right: none;
+	background-color: #fafafa;
+    padding: 5px 0;
+}
+
+.kfadeliverytime-tab.active {
+	border-bottom-color: white;
+}
+
+.kfadeliverytime-tab a:active,
+.kfadeliverytime-tab a:focus {
+    outline: none;
+}
+
+.kfadeliverytime-tab a {
+	text-decoration: none;
+    display: block;
+}
+
+.kfadeliverytime-tab.active,
+.kfadeliverytime-tabs-content {
+	background-color: white;
+}
+
+.kfadeliverytime-tabs-content {
+	border: 1px solid lightgray;
+	border-top: none;
+}
+
+.kfadeliverytime-nav-tab-line1 {
+	display: block;
+	font-weight: bold;
+    font-size: 105%;
+	text-align: center;
+}
+
+.kfadeliverytime-nav-tab-line2 {
+	display: block;
+	text-align: center;
+	color: #888888;
+}
+
+.kfadeliverytime-option-cell {
+	display: inline-block;
+	padding: 5px;
+	line-height: 3;
+}
+
+.kfadeliverytime-option-container i {
+	line-height: 1;
+}
+
+.kfadeliverytime-description {
+	float: left;
+    margin-left: 5px;
+}

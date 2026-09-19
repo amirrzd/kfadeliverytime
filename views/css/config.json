@@ -1,0 +1,40 @@
+{
+  "name": "kfadeliverytime_fontello",
+  "css_prefix_text": "ficon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "81bb68665e8e595505272a746db07c7a",
+      "css": "radio-checked",
+      "code": 61842,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "422e07e5afb80258a9c4ed1706498f8a",
+      "css": "radio-unchecked",
+      "code": 61708,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c76b7947c957c9b78b11741173c8349b",
+      "css": "attention",
+      "code": 59400,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "598a5f2bcf3521d1615de8e1881ccd17",
+      "css": "clock",
+      "code": 59404,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a73c5deb486c8d66249811642e5d719a",
+      "css": "arrows-cw",
+      "code": 59392,
+      "src": "fontawesome"
+    }
+  ]
+}

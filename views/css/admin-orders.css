@@ -1,0 +1,27 @@
+#kfadeliverytime-selected-option {
+    padding: 5px;
+}
+
+#kfadeliverytime-change-option div:first-of-type {
+    padding: 5px 0;
+}
+
+.kfa-date {
+	display: inline-block;
+	direction: ltr;
+}
+
+.kfadeliverytime-heading {
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px;
+	border-radius: 4px;
+	line-height: 2;
+	margin-bottom: 20px !important;
+}
+
+.kfadeliverytime-heading.separator {
+	margin-top: 30px !important;
+	border-top: 1px solid lightgray;
+	padding-top: 20px;
+}
